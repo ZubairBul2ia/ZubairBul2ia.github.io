@@ -2585,6 +2585,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+			/* max-height: 100%;
+			max-width: 100%; */
 		}
 
 		.image.left, .image.right {
@@ -2633,15 +2635,15 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		height: auto;
-		width: auto;
-		max-height: 50%;
-		max-width: 50%;
+		max-height: 500px; 
 	}
 
 		.image2 img {
 			border-radius: 0.25em;
 			display: block;
-		}
+			max-height: 100%;
+			max-width: 100%;
+		}		
 
 
 /* List */
