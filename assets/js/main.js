@@ -14,6 +14,7 @@
 
 	$(document).ready(function(){
 		$(".abstract1").hide();
+		$('#bddiv').hide();
 		$('#pydiv').hide();
 		$('#jsdiv').hide();
 		$('#javadiv').hide();
@@ -30,9 +31,14 @@
 		    $(this).toggleClass('fa-plus-circle fa-minus-circle');
 		});
 
+		$('#bdexpand').click(function(){
+		    $('#bddiv').toggle();
+		});
+
 		$('#pyexpand').click(function(){
 		    $('#pydiv').toggle();
 		});
+
 
 		$('#jsexpand').click(function(){
 		    $('#jsdiv').toggle();

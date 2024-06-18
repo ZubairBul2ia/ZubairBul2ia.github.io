@@ -2643,7 +2643,8 @@ input, select, textarea {
 			display: block;
 			max-height: 100%;
 			max-width: 100%;
-		}		
+		}
+
 
 
 /* List */
@@ -2662,6 +2663,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		margin-bottom: 0.5em;
 	}
 
 		ul li {
